@@ -21,7 +21,7 @@ namespace stajOrnekAtm
             3- PARA YATIRMA
             9- ÇIKIŞ. */
 
-            Console.WriteLine("Hoşgeldiniz. Lütfen yapmak istediğiniz işlemi seçiniz:\n   1-BAKİYE GÖRÜNTÜLEME\r\n            2- PARA ÇEKME\r\n            3- PARA YATIRMA\r\n            9- ÇIKIŞ.");
+            Console.WriteLine("Hoşgeldiniz. Lütfen yapmak istediğiniz işlemi seçiniz:\n   1-BAKİYE GÖRÜNTÜLEME\r\n  2- PARA ÇEKME\r\n 3- PARA YATIRMA\r\n   9- ÇIKIŞ.");
             String secim = Console.ReadLine();
 
             if (secim == "1") 
@@ -43,7 +43,6 @@ namespace stajOrnekAtm
                     Console.WriteLine("Bakiyeniz bu işlem için yetersiz.");
                     Console.ReadLine(); 
                 }
-             
             }
             else if (secim == "3") 
            {
